@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(245, 202, 202);
+    font-size: 18px;
+}
+
+
+.navbar{
+    background-color: red;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__me{
+    background-color: rgb(168, 168, 233);
+}
+
+.navbar__list{
+    background-color: rgb(168, 168, 233);
+
+    display: flex;
+    gap: 20px;
+}
