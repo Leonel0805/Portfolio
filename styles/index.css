@@ -149,7 +149,7 @@ main{
 
 .proyectos__container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
 
@@ -175,19 +175,29 @@ main{
 
 .proyecto__card-content{
     padding: 0 16px;
-    width: 100%;
+    width: auto;
 }
 
 .proyecto__card-tecno{
-
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 8px;
 }
 
 .proyecto__card-tecno-list{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .proyecto__card-tecno-item{
+    width: auto;
     border: 1px solid black;
-    padding: 8px;
+    padding: 0 4px;
+}
+
+.proyecto__card-tecno-link{
 }
