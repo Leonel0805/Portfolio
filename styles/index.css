@@ -201,3 +201,49 @@ main{
 
 .proyecto__card-tecno-link{
 }
+
+/* TECNOLOGIAS */
+
+.tecnologias{
+}
+
+.tecnologias__title{
+    background-color: aqua;
+}
+
+.tecnologias__container{
+
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tecnologias__card{
+    width: 32%;
+    background-color: rgb(119, 119, 202)  ;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 32px 8px;
+
+}
+
+.tecnologias__card-title{
+    font-size: 2.3rem;
+}
+
+.tecnologias__list{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px 16px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.tecnologias__item{
+    border: 2px solid black;
+    padding: 4px;
+    width: 25%;
+}
