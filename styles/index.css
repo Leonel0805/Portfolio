@@ -247,3 +247,26 @@ main{
     padding: 4px;
     width: 25%;
 }
+
+/* FORMACION */
+
+.formacion__title{
+    background-color: bisque;
+}
+
+.formacion__container{
+    margin-top: 32px;
+}
+
+.formacion__card{
+    background-color: rgb(192, 221, 255);
+    padding: 16px;
+    border: 2px solid black;
+    margin: 16px 0;
+}
+
+.formacion__card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
