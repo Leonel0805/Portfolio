@@ -25,7 +25,7 @@ header{
 /* NAVBAR */
 .navbar{
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(3, 80, 182);
     width: 100%;
     min-height: 50px;
     display: flex;
@@ -37,7 +37,13 @@ header{
 }
 
 .navbar__me{
-    background-color: rgb(168, 168, 233);
+    /* background-color: rgb(168, 168, 233); */
+    font-size: 1.3rem;
+}
+
+.navbar__me-title{
+    color: rgb(214, 214, 214);
+    
 }
 
 .navbar__list{
@@ -49,7 +55,7 @@ header{
 
 .navbar__item a{
     color: rgb(214, 214, 214);
-
+    font-size: 1.2rem;
 }
 
 /* PRINCIPAL */
@@ -73,14 +79,23 @@ main{
     align-items: center; 
 }
 
-.principal__perfil{
+.principal-sect{
     background-color: blue;
+    border: 2px solid black;
+    border-radius: 5px;
     width: 50%;
     height: 80%;
+    padding: 8px 24px;
+    box-sizing: border-box;
+
+    
+}
+
+.principal__perfil{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 8px 24px;
+
 }
 
 .principal__top{
@@ -100,21 +115,20 @@ main{
 }
 
 .principal__top-content{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 
 .principal__mid{
     margin: 0 auto;
     text-wrap: pretty;
-
+    font-size: 1.3rem;
 }
 .principal__parrafo{
-
+    font-size: 1.3rem;
 }
 
 .principal__aprendiendo{
-    width: 50%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -123,16 +137,19 @@ main{
 .principal__bot{
     margin: 0 auto;
     height: auto;
+    font-size: 1.2rem;
 }
 
 .principal__bot-list{
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .principal__bot-link{
     border: 1px solid black;
     padding: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .principal__bot-item a{
