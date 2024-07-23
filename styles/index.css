@@ -164,13 +164,13 @@ main{
 
 .proyectos{
     background-color: rgb(201, 199, 199);
-    margin-top: 32px;
     height: auto;
 }
 
 .title{
     background-color: red;
     font-size: 2.4rem;
+    margin: 32px 0px;
 }
 
 .proyectos__container{
@@ -201,7 +201,6 @@ main{
 
 .proyecto__card-img{
     border-radius: 8px;
-
     width: 100%;
     height: 100%;
 }
@@ -209,6 +208,14 @@ main{
 .proyecto__card-content{
     padding: 0;
     width: auto;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.proyecto__card-title{
+    font-size: 1.5rem;
 }
 
 .proyecto__card-tecno{
@@ -220,17 +227,20 @@ main{
 
 .proyecto__card-tecno-list{
     display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .proyecto__card-tecno-item{
-    width: auto;
+    background-color: black;
     border: 1px solid black;
-    padding: 0 4px;
+    border-radius: 8px;
+    padding: 4px 8px;
     box-sizing: border-box;
+    color: white;
+    font-size: 0.95rem;
+    text-align: center;
+    width: auto;
 }
 
 .proyecto__card-tecno-link{
@@ -245,13 +255,9 @@ main{
 .tecnologias{
 }
 
-.tecnologias__title{
-    background-color: aqua;
-}
 
 .tecnologias__container{
 
-    margin-top: 16px;
     display: flex;
     gap: 16px;
     justify-content: space-around;
@@ -274,7 +280,6 @@ main{
 
 .tecnologias__list{
     display: flex;
-    justify-content: space-around;
     gap: 8px 16px;
     flex-wrap: wrap;
     margin-top: 32px;
@@ -284,6 +289,10 @@ main{
     border: 2px solid black;
     padding: 4px;
     width: 25%;
+}
+
+.tecnologias__img{
+    width: 50%;
 }
 
 /* FORMACION */
