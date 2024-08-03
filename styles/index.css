@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Fuente pixelada */
 *{
     margin: 0;
     padding: 0;
@@ -13,8 +14,8 @@ a{
 
 body{
     background-color: rgb(39, 97, 255);
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-family: 'Press Start 2P', Courier;
 }
 
 header{
@@ -38,7 +39,7 @@ header{
 
 .navbar__me{
     /* background-color: rgb(168, 168, 233); */
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .navbar__me-title{
@@ -56,7 +57,7 @@ header{
 
 .navbar__item a{
     color: rgb(214, 214, 214);
-    font-size: 1.2rem;
+    font-size: 1rem;
     flex-wrap: wrap;
 
 }
@@ -75,7 +76,7 @@ main{
     background-color: rgb(94, 94, 150);
     margin: 0 auto;
     margin-top: 64px;
-    width: 80%;
+    width: 90%;
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
@@ -88,7 +89,7 @@ main{
     border-radius: 5px;
     width: 50%;
     height: 80%;
-    padding: 8px 24px;
+    padding: 8px 16px;
     box-sizing: border-box;
 
     
@@ -118,7 +119,7 @@ main{
 }
 
 .principal__top-content{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 
@@ -169,7 +170,7 @@ main{
 
 .title{
     background-color: red;
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin: 32px 0px;
 }
 
@@ -208,14 +209,15 @@ main{
 .proyecto__card-content{
     padding: 0;
     width: auto;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
 .proyecto__card-title{
-    font-size: 1.5rem;
+    margin-top: 8px;
+    font-size: 1.2rem;
 }
 
 .proyecto__card-tecno{
@@ -238,7 +240,7 @@ main{
     padding: 4px 8px;
     box-sizing: border-box;
     color: white;
-    font-size: 0.95rem;
+    font-size: 0.6rem;
     text-align: center;
     width: auto;
 }
@@ -259,40 +261,58 @@ main{
 .tecnologias__container{
 
     display: flex;
-    gap: 16px;
+    gap: 8px;
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
+    box-sizing: border-box;
+
 }
 
 .tecnologias__card{
     width: 32%;
     background-color: rgb(119, 119, 202)  ;
     text-align: center;
-    box-sizing: border-box;
     padding: 32px 8px;
+    border-radius: 8px;
+    border-top: 5px solid white;
+    box-sizing: border-box;
 
 }
 
 .tecnologias__card-title{
-    font-size: 2.3rem;
+    font-size: 1.7rem;
+    margin-bottom: 32px;
 }
 
 .tecnologias__list{
     display: flex;
     gap: 8px 16px;
     flex-wrap: wrap;
-    margin-top: 32px;
+    margin: 0 auto;
 }
 
 .tecnologias__item{
     border: 2px solid black;
-    padding: 4px;
-    width: 25%;
+    background-color: rgb(139, 179, 179);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .tecnologias__img{
-    width: 50%;
+    width: 79px;
+    height: 79px;
+    margin-top: auto;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.tecnologias__item p{
+    margin-top: auto;
+    margin-top: 8px;
 }
 
 /* FORMACION */
