@@ -35,6 +35,7 @@ header{
     position: fixed;
     top: 0;
     flex-wrap: wrap;
+    z-index: 10;
 }
 
 .navbar__me{
@@ -43,7 +44,7 @@ header{
 }
 
 .navbar__me-title{
-    color: rgb(214, 214, 214);
+    color: rgb(202, 202, 202);
     
 }
 
@@ -56,10 +57,14 @@ header{
 }
 
 .navbar__item a{
-    color: rgb(214, 214, 214);
+    color: rgb(202, 202, 202);
     font-size: 1rem;
     flex-wrap: wrap;
 
+}
+
+.navbar__item:hover, .navbar__me-title:hover{
+    filter: brightness(200%);
 }
 
 /* PRINCIPAL */
@@ -84,7 +89,6 @@ main{
 }
 
 .principal-sect{
-    background-color: blue;
     border: 2px solid black;
     border-radius: 5px;
     width: 50%;
@@ -115,7 +119,6 @@ main{
 
 .principal__img{
     height: 240px;
-    border-radius: 50%;
 }
 
 .principal__top-content{
@@ -149,12 +152,22 @@ main{
     gap: 24px;
 }
 
+.principal__bot-item{
+    transition: transform 0.7s ease;
+}
+
+.principal__bot-item:hover{
+    transform: scale(1.05);
+}
+
+
 .principal__bot-link{
     border: 1px solid black;
     padding: 8px;
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 
 .principal__bot-item a{
     color: black;
@@ -193,6 +206,11 @@ main{
     border: 2px solid black;
     border-radius: 8px;
     box-sizing: border-box;
+    transition: transform 0.7s ease;
+}
+
+.proyecto__card:hover{
+    transform: scale(1.03);
 }
 
 
@@ -212,7 +230,7 @@ main{
     font-size: 0.8rem;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
 }
 
 .proyecto__card-title{
@@ -249,7 +267,7 @@ main{
 }
 
 .icon{
-    font-size: 35px !important;
+    font-size: 32px !important;
     color: black;
 }
 /* TECNOLOGIAS */
@@ -293,8 +311,8 @@ main{
 }
 
 .tecnologias__item{
-    border: 2px solid black;
-    background-color: rgb(139, 179, 179);
+    /* border: 2px solid black; */
+    /* background-color: rgb(139, 179, 179); */
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -311,6 +329,7 @@ main{
 }
 
 .tecnologias__item p{
+    font-size: 0.74rem;
     margin-top: auto;
     margin-top: 8px;
 }
@@ -330,12 +349,14 @@ main{
     padding: 16px;
     border: 2px solid black;
     margin: 16px 0;
+    border-radius: 8px;
 }
 
 .formacion__card-content{
     display: flex;
     flex-direction: column;
     gap: 6px;
+    font-size: 0.8rem;
 }
 
 /* CONTACTO */
@@ -343,17 +364,25 @@ main{
     padding-bottom: 32px;
 }
 
-.contacto__title{
-    background-color: brown;
-}
 
 .contacto__card{
     background-color: rgb(153, 153, 153);
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px;
+    border-radius: 8px;
 }
+
+.contacto__card-title{
+    font-size: 1.1rem;
+}
+
 
 /* FOOTER */
 
