@@ -84,6 +84,12 @@ header{
     left: -32px;
 }
 
+.gif{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+}
+
 
 /* PRINCIPAL */
 
@@ -208,32 +214,38 @@ main{
     height: auto;
 }
 
+.title-container{
+    display: flex;
+    align-items: center;
+}
+
+
 .title{
-    background-color: red;
+    background-color: #FF0000;
     font-size: 2rem;
     margin: 32px 0px;
 }
 
 .proyectos__container{
-    margin-top: 32px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 24px;
-
 }
 
 
 .proyecto__card{
-    background-color: rgb(157, 211, 211);
+    background-color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     padding: 16px;
     width: 30%;
     flex-direction: column;
-    border: 2px solid black;
-    border-radius: 8px;
+    border: 4px solid rgb(255, 255, 255);
+    /* border-radius: 8px; */
     box-sizing: border-box;
     transition: transform 0.7s ease;
+    outline: 4px solid rgb(0, 0, 0);
 }
 
 .proyecto__card:hover{
@@ -248,17 +260,17 @@ main{
 }
 
 .proyecto__card-img{
-    border-radius: 8px;
     width: 100%;
     height: 100%;
-    background-color: red;
 }
+
+
 
 .proyecto__card-video{
     position: absolute;
     object-fit: fill;
     opacity: 0;
-    transition: opacity 0.7s;
+    transition: opacity 0.7s ease;
 }
 
 .proyecto__card:hover .proyecto__card-video{
@@ -303,6 +315,7 @@ main{
     font-size: 0.6rem;
     text-align: center;
     width: auto;
+    outline: 2px solid white;
     
 }
 
@@ -332,13 +345,14 @@ main{
 
 .tecnologias__card{
     width: 32%;
-    background-color: rgb(119, 119, 202)  ;
+    background-color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     padding: 32px 8px;
-    border-radius: 8px;
-    border-top: 5px solid white;
+    /* border-radius: 8px; */
+    border: 4px solid rgb(10, 10, 10);
     box-sizing: border-box;
-
+    outline: 4px solid white;
 }
 
 .tecnologias__card-title{
@@ -384,15 +398,19 @@ main{
 }
 
 .formacion__container{
-    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .formacion__card{
-    background-color: rgb(192, 221, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 16px;
-    border: 2px solid black;
+    border: 4px solid rgb(255, 255, 255);
     margin: 16px 0;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    outline: 4px solid rgb(0, 0, 0);
 }
 
 .formacion__card-content{
@@ -413,7 +431,7 @@ main{
 
 
 .contacto__card{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
     width: 40%;
     height: auto;
     margin: 0 auto;
@@ -423,7 +441,8 @@ main{
     align-items: center;
     gap: 8px;
     padding: 16px 8px;
-    border-radius: 8px;
+    border: 4px solid black;
+    outline: 4px solid white;
 }
 
 .contacto__card-title{
