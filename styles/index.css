@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Fuente pixelada */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
@@ -108,7 +109,6 @@ main{
 }
 
 .principal__top{
-    background-color: red;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -116,12 +116,22 @@ main{
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    position: relative;
 }
 
 .principal__img{
     height: 240px;
 }
 
+.img--layout{
+    position: absolute;
+    left: 0;
+    transition: opacity 0.8s ease;
+}
+
+.principal-sect:hover .img--layout{
+    opacity: 0;
+}
 .principal__top-content{
     font-size: 1.3rem;
 }
