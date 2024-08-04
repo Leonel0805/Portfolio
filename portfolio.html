@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="enableSound">Habilitar Sonido y Redirigir</button>
+
+    <script>
+      var enableSoundButton = document.getElementById('enableSound');
+  
+      enableSoundButton.addEventListener('click', function() {
+        // Aquí puedes guardar un estado en el almacenamiento local o hacer cualquier otra cosa que necesites
+        localStorage.setItem('soundEnabled', 'true');
+        window.location.href = 'index.html'; // Redirige a la página de destino
+      });
+    </script>
+</body>
+</html>

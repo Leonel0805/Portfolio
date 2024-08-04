@@ -52,22 +52,38 @@ header{
 
 .navbar__list{
     display: flex;
-    gap: 20px;
+    gap: 32px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .navbar__item a{
     color: rgb(202, 202, 202);
-    font-size: 1rem;
+    font-size: 0.9rem;
     flex-wrap: wrap;
-
 }
 
 .navbar__item:hover, .navbar__me-title:hover{
     filter: brightness(200%);
 }
+
+.navbar__select{
+    position: absolute;
+    display: none;
+}
+
+.navbar__item:hover .navbar__select{
+    display: inline;
+    left: -20px;
+}
+
+.navbar__me-title .navbar__select{
+    display: inline;
+    left: -32px;
+}
+
 
 /* PRINCIPAL */
 
