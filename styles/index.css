@@ -238,9 +238,9 @@ main{
 
 .proyectos__container{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 24px;
+    justify-content: space-around;
 }
 
 
@@ -256,6 +256,14 @@ main{
     box-sizing: border-box;
     transition: transform 0.7s ease;
     outline: 4px solid rgb(0, 0, 0);
+}
+
+.proyectos__container > .proyecto__card:nth-child(1){
+    margin-left: -20px;
+}
+
+.proyectos__container > .proyecto__card:nth-child(3){
+    margin-right: -20px;
 }
 
 .proyecto__card:hover{
