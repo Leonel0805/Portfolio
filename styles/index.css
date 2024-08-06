@@ -206,11 +206,18 @@ main{
 
 .principal__bot-link{
     border: 2px solid black;
-    padding: 8px;
+    padding: 16px;
     border-radius: 8px;
     box-sizing: border-box;
 }
 
+.bi{
+
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
 
 .principal__bot-item a{
     color: black;
@@ -294,12 +301,19 @@ main{
 }
 
 .proyecto__card-content{
+    height: 100%;
     padding: 0;
     width: auto;
     font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    justify-content: space-between;
+}
+
+.proyecto__card-content p{
+    text-wrap: pretty;
+    line-height: 1.2;
 }
 
 .proyecto__card-title{
@@ -339,7 +353,22 @@ main{
 
 .icon{
     font-size: 32px !important;
+}
+
+.icon-white{
+    color: white;
+}
+
+.icon-black{
     color: black;
+}
+
+.icon-img{
+    width: 32px;
+}
+
+.icon-main{
+    font-size: 32px !important;
 }
 /* TECNOLOGIAS */
 
@@ -351,11 +380,10 @@ main{
 
     display: flex;
     gap: 8px;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
     box-sizing: border-box;
-
 }
 
 .tecnologias__card{
@@ -437,6 +465,11 @@ main{
 
 .formacion__fecha{
     font-size: 0.6rem;
+    font-style: italic;
+}
+
+.formacion__parrafo{
+    margin-top: 8px;
 }
 
 /* CONTACTO */
