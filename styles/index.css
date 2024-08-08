@@ -195,12 +195,11 @@ main{
 }
 
 .principal__bot-item{
-    font-size: 1.07rem;
     transition: transform 0.7s ease;
 }
 
 .principal__bot-item:hover{
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 
 
@@ -352,7 +351,7 @@ main{
 }
 
 .icon{
-    font-size: 32px !important;
+    font-size: 24px !important;
 }
 
 .icon-white{
