@@ -156,7 +156,9 @@ main{
 
 .img--layout{
     position: absolute;
-    left: 0;
+    top: 50%;
+    left: 16%;
+    transform: translate(-50%, -50%);
     transition: opacity 0.8s ease;
 }
 
@@ -622,8 +624,9 @@ main{
     
     .img--layout{
         position: absolute;
-        top: 0;
-        left: 12%;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         transition: opacity 0.8s ease;
     }
     
@@ -874,8 +877,9 @@ main{
     
     .img--layout{
         position: absolute;
-        top: 0;
-        left: 12%;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         transition: opacity 0.8s ease;
     }
     
@@ -1127,8 +1131,9 @@ main{
     
     .img--layout{
         position: absolute;
-        top: 0;
-        left: 25%;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         transition: opacity 0.8s ease;
     }
     
@@ -1373,8 +1378,9 @@ main{
     
     .img--layout{
         position: absolute;
-        top: 0;
-        left: 25%;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         transition: opacity 0.8s ease;
     }
     
