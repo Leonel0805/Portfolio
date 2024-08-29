@@ -157,7 +157,7 @@ main{
 .img--layout{
     position: absolute;
     top: 50%;
-    left: 16%;
+    left: 15.2%;
     transform: translate(-50%, -50%);
     transition: opacity 0.8s ease;
 }
