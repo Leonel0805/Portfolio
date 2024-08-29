@@ -452,7 +452,7 @@ main{
 .formacion__container{
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
 }
 
 .formacion__card{
@@ -501,6 +501,7 @@ main{
     border: 4px solid black;
     outline: 4px solid white;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .contacto__card-title{
@@ -755,7 +756,7 @@ main{
     }
     
     .tecnologias__item p{
-        font-size: 0.74rem;
+        font-size: 0.58rem;
         margin-top: auto;
         margin-top: 8px;
     }
@@ -979,7 +980,6 @@ main{
         gap: 16px;
         width: 90%;
         flex-wrap: wrap;
-        box-sizing: border-box;
         margin: 0 auto;
     }
 
@@ -991,8 +991,9 @@ main{
         padding: 32px 8px;
         /* border-radius: 8px; */
         border: 4px solid rgb(10, 10, 10);
-        box-sizing: border-box;
         outline: 4px solid white;
+        box-sizing: border-box;
+
     }
 
     .tecnologias__card-title{
@@ -1025,7 +1026,7 @@ main{
     }
     
     .tecnologias__item p{
-        font-size: 0.74rem;
+        font-size: 0.6rem;
         margin-top: auto;
         margin-top: 8px;
     }
@@ -1041,28 +1042,32 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 90%;
         gap: 16px;
+        margin:  auto;
         
     }
 
     .formacion__card{
-        width: 85%;
+        width: 100%;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
-        padding: 16px;
         border: 4px solid rgb(255, 255, 255);
-        margin: 0px 0;
         /* border-radius: 8px; */
         outline: 4px solid rgb(0, 0, 0);
+        box-sizing: border-box;
     }
 
     /* Contacto */
 
+    .contacto{
+        width: 90%;
+        margin: 0 auto;
+    }
 
     .contacto__card{
         background-color: rgb(255, 255, 255);
-        width: 88%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         font-size: 0.8rem;
@@ -1073,6 +1078,7 @@ main{
         padding: 16px 8px;
         border: 4px solid black;
         outline: 4px solid white;
+        box-sizing: border-box;
     }
 
 
@@ -1088,9 +1094,11 @@ main{
     }
 
     .footer__title{
-        font-size: 0.95rem;
+        font-size: 0.90rem;
         color: white;
         text-align: center;
+        padding: 16px;
+
     }
 
 }
@@ -1116,7 +1124,7 @@ main{
     .principal-sect{
         border: 4px solid black;
         background-color: rgb(238, 236, 236);
-        width: 95%;
+        width: 90%;
         height: 70%;
         padding: 32px 16px;
         display: flex;
@@ -1275,8 +1283,9 @@ main{
         padding: 32px 8px;
         /* border-radius: 8px; */
         border: 4px solid rgb(10, 10, 10);
-        box-sizing: border-box;
         outline: 4px solid white;
+        box-sizing: border-box;
+
     }
 
     .tecnologias__card-title{
@@ -1294,13 +1303,14 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 95%;
         gap: 16px;
+        margin: 0 auto;
         
     }
 
     .formacion__card{
-        width: 90%;
+        width: 100%;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
         padding: 16px;
@@ -1308,13 +1318,14 @@ main{
         margin: 0px 0;
         /* border-radius: 8px; */
         outline: 4px solid rgb(0, 0, 0);
+        box-sizing: border-box;
     }
 
     /* Contacto */
 
     .contacto__card{
         background-color: rgb(255, 255, 255);
-        width: 90%;
+        width: 95%;
         height: auto;
         margin: 0 auto;
         font-size: 0.8rem;
@@ -1485,6 +1496,9 @@ main{
         outline: 4px solid white;
     }
 
+    .tecnologias__item{
+        width: 30%;
+    }
     .tecnologias__card-title{
         font-size: 1.7rem;
         margin-bottom: 32px;
