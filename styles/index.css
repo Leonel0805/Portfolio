@@ -21,8 +21,8 @@ body{
 
 
 header{
-    background-color: red;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 /* NAVBAR */
@@ -39,7 +39,6 @@ header{
     flex-wrap: wrap;
     z-index: 10;
     outline: 4px solid white;
-    position: relative;
 }
 
 .navbar__me{
@@ -527,6 +526,7 @@ main{
 /* Responsive */
 
 @media screen and (max-width: 320px) {
+    
 
     .navbar{
         margin: 0 auto;
@@ -840,7 +840,7 @@ main{
     
     .principal{
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 150px;
         width: 100%;
         height: auto;
         display: flex;
@@ -1113,7 +1113,8 @@ main{
     
     .principal{
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 125px;
+
         width: 100%;
         height: auto;
         display: flex;
@@ -1363,7 +1364,7 @@ main{
       
     .principal{
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 150px;
         width: 100%;
         height: auto;
         display: flex;
